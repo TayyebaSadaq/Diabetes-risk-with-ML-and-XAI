@@ -10,3 +10,4 @@ flask
 flask-cors
 requests
 plotly
+pathlib                                                                 
