@@ -16,4 +16,12 @@ def inspect_dataset(df):
 def stat_summary(df):
     print(df.describe()) # gives numeric summary of dataset
 
+    fig, axs = plt.subplots(len(df.columns),1,figsize=(7,18),dpi=95)
+    for x, col in enumerate(df.columns):
+        axs[x].boxplot(df[col])
+        axs[x].set_ylabel(col)
+    plt.tight_layout()
+    plt.show()
     
+# inspect_dataset(df)
+stat_summary(df)
