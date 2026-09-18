@@ -20,3 +20,7 @@ contributions are welcome after I get the core rebuilt further. In the meantime:
 - if you spot any bugs, have ideas or suggesstions feel free to open an issue :)
 - i'm trying to work on documentation as I go (for my own learning and as the project grows) so feel free to fork and fix anything if you'd like :)
 - for anything larger, open an issue first so we can chat before you put in any work :)
+
+## References and Links:
+the dataset used was taken from kaggle ([here](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset))
+- I selected the clean dataset with 3 classes (no diabetes, prediabetes and diabetic) since it aligns best with making predictive software to inform users of their risk (by including prediabetes)
