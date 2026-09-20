@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+joblib
+lime
+flask
+flask-cors
+requests
+plotly
+pathlib                                                                 
