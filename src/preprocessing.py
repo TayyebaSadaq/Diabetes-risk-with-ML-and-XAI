@@ -1,7 +1,7 @@
 ## Import libraries
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import standardscaler, minmaxscaler
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import seaborn as sns
 import matplotlib.pyplot as plt
 
