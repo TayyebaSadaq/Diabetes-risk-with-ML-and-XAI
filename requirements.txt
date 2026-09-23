@@ -10,4 +10,5 @@ flask
 flask-cors
 requests
 plotly
-pathlib                                                                 
+pathlib
+PyQt5
