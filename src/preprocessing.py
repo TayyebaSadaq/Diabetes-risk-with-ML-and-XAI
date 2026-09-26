@@ -17,8 +17,9 @@ def inspect_data(data):
 ## Statistical summary of dataset
 def stat_summary(data):
     print(data.describe()) # prints out statistical summary of dataset
+    print(data.nunique()) # prints out number of unique values in each column - helps to distinguish what columns will need outlier removal
     
-    # graph visualisation of outliers and data spread
+    ## graph visualisation of outliers and data spread
     fig,axs=plt.subplots(len(data.columns),1,figsize=(7,18), dpi=95)
     for i, col in enumerate(data.columns):
         axs[i].boxplot(data[col], vert=False) # plots boxplot for each column
@@ -26,9 +27,7 @@ def stat_summary(data):
     plt.tight_layout()
     plt.show()
 
-## removing outliers via IQR methods
-def remove_outliers(data):
-    pass
+
     
 # inspect_data(data)
-#stat_summary(data)
+stat_summary(data)
