@@ -35,10 +35,17 @@ def correlation_analysis(data):
     sns.heatmap(correlation, annot=True, fmt='.2f', cmap='coolwarm') # plots heatmap with seaborn clearly
     plt.show()
     
-    # print(correlation["Diabetes_012"].sort_values(ascending=False)) # prints out correlation values of features with target variable
+    print(correlation["Diabetes_012"].sort_values(ascending=False)) # prints out correlation values of features with target variable
 
-
+## visualise target variable distribution
+def target_distribution(data):
+    plt.pie(data['Diabetes_012'].value_counts(), #plotting pie chart of target var
+        labels=[0,1,2],
+        autopct='%1.1f%%')
+    plt.title('Target Variable Distribution')
+    plt.show()
 
 # inspect_data(data)
 # stat_summary(data)
-correlation_analysis(data)
+# correlation_analysis(data)
+target_distribution(data)
