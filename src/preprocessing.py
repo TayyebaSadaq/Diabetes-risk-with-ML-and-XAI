@@ -27,7 +27,18 @@ def stat_summary(data):
     plt.tight_layout()
     plt.show()
 
-
+## correlation analysis between features and target variable
+def correlation_analysis(data):
+    ## visual representation
+    correlation = data.corr() # calculates correlation between features and target variable
+    plt.figure(dpi=130)
+    sns.heatmap(correlation, annot=True, fmt='.2f', cmap='coolwarm') # plots heatmap with seaborn clearly
+    plt.show()
     
+    # print(correlation["Diabetes_012"].sort_values(ascending=False)) # prints out correlation values of features with target variable
+
+
+
 # inspect_data(data)
-stat_summary(data)
+# stat_summary(data)
+correlation_analysis(data)
