@@ -22,5 +22,7 @@ contributions are welcome after I get the core rebuilt further. In the meantime:
 - for anything larger, open an issue first so we can chat before you put in any work :)
 
 ## References and Links:
-the dataset used was taken from kaggle ([here](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset))
-- I selected the clean dataset with 3 classes (no diabetes, prediabetes and diabetic) since it aligns best with making predictive software to inform users of their risk (by including prediabetes)
+- the dataset used was taken from kaggle ([here](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset))
+    - I selected the clean dataset with 3 classes (no diabetes, prediabetes and diabetic) since it aligns best with making predictive software to inform users of their risk (by including prediabetes)
+- initial pre-processing notes and tutorial from geeks for geeks ([here](https://www.geeksforgeeks.org/data-analysis/data-preprocessing-machine-learning-python/))
+    - this was used as a reference and basic tutorial then built up from

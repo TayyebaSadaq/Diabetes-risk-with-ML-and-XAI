@@ -25,6 +25,10 @@ def stat_summary(data):
         axs[i].set_ylabel(col) # sets y-axis label to column name
     plt.tight_layout()
     plt.show()
+
+## removing outliers via IQR methods
+def remove_outliers(data):
+    pass
     
 # inspect_data(data)
-stat_summary(data)              
+#stat_summary(data)
