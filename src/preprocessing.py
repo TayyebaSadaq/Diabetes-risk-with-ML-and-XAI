@@ -27,4 +27,4 @@ def stat_summary(data):
     plt.show()
     
 # inspect_data(data)
-stat_summary(data)
+stat_summary(data)              
