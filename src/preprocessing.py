@@ -45,7 +45,14 @@ def target_distribution(data):
     plt.title('Target Variable Distribution')
     plt.show()
 
+## seperate features and target variable
+X = data.drop(columns=['Diabetes_012']) # features
+Y = data['Diabetes_012'] # target
+
+## Feature scaling - normalisation and standardisation - left out for now?
+
+ 
 # inspect_data(data)
 # stat_summary(data)
 # correlation_analysis(data)
-target_distribution(data)
+# target_distribution(data)jani
