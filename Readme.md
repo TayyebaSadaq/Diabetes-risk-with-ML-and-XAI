@@ -3,6 +3,11 @@
 This project aims to give users predictions of the risk to developing Diabetes and possibly other health conditions soon based on their health and lifestyle metrics. It utilises machine learning to analyse their metrics against its training and provide uses with both a prediction and reasoning behind the results using Explainable AI.
 
 The project was initially my dissertation piece from my BSc. However I wanted to come back and re-work it from the ground up and develop it further than the timeframe had allowed me to.
+## How to run:
+1. create python env (in vscode, do `ctrl + shift + p` and choose/type create python environment in root workspace directory
+2. a new folder `.venv` will be made in the root to be able to run this project easily with any dependencies (listed in the `requirements.txt` file)
+    a. this should also install the `requirement.txt` dependencies, if not simply run `pip install -r requirements.txt` ensuring the terminal has you in the .venv environment
+3. from here you can run the .py files without issue (hopefully)
 
 ## Timeline ideas:
 *these are what I want to do within this project and I do not yet have an actual dated timeline of when they'll be implemented*
